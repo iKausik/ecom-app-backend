@@ -624,7 +624,7 @@ app.post("/create-checkout-session", requiresAuth, async (req, res) => {
       quantity: item.cart_quantity,
     }));
 
-    const DOMAIN_URL = "http://localhost:3000";
+    const DOMAIN_URL = process.env.FRONTEND_DOMAIN_URL;
 
     // stripe payment
     const session = await stripe.checkout.sessions.create({
