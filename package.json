@@ -16,10 +16,8 @@
     "express": "^4.17.1",
     "joi": "^17.4.0",
     "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.12",
     "pg": "^8.6.0",
     "stripe": "^8.161.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.8"
   }
 }
